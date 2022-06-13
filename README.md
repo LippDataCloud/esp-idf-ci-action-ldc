@@ -17,7 +17,7 @@ jobs:
       with:
         submodules: 'true'
     - name: esp-idf build
-      uses: LippDataCloud/esp-idf-ci-action@v1
+      uses: LippDataCloud/esp-idf-ci-action-ldc@v1
       with:
         esp_idf_version: v4.4
         target: esp32
@@ -26,7 +26,7 @@ jobs:
 
 ## Version
 
-We recommend referencing this action as `LippDataCloud/esp-idf-ci-action@v1` and using `v1` instead of `main` to avoid breaking your workflows. `v1` tag always points to the latest compatible release.
+We recommend referencing this action as `LippDataCloud/esp-idf-ci-action-ldc@v1` and using `v1` instead of `main` to avoid breaking your workflows. `v1` tag always points to the latest compatible release.
 
 ## Parameters
 
